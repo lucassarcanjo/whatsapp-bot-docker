@@ -1,0 +1,65 @@
+{
+    "appconfig": {
+        "headless": false,
+        "isGroupReply":false,
+        "webhook":"http://localhost:3001/api/messages"
+    },
+    "bot": [{
+            "contains": [],
+            "exact": ["hi"],
+            "response": "{hello|howdy}"
+        },
+        {
+            "contains": [],
+            "exact": ["hello"],
+            "response": "hi",
+            "file":"noFile.png"
+        },
+        {
+            "contains": [],
+            "exact": ["hiee"],
+            "response": "hi"
+        },
+        {
+            "contains": [],
+            "exact": ["hey"],
+            "response": "hi"
+        },
+        {
+            "contains": ["michhami","dukkadam"],
+            "exact": [],
+            "response": "Michhami Dukkadam 🙏"
+        },
+        {
+            "contains": ["happy","birthday","bday"],
+            "exact": [],
+            "response": "Thank you"
+        },
+        {
+            "contains": [],
+            "exact": ["how are you"],
+            "response": "i am {good {thanks| thank you}|great}. How about you?"
+        },
+        {
+            "contains": [],
+            "exact": ["hbd"],
+            "response": "Thank you"
+        },
+        {
+            "contains": ["શુભકામના","જન્મદિન"],
+            "exact": [],
+            "response": "આભાર 🙏"
+        },
+        {
+            "contains": ["janmdin","hardik","shubhkaamna"],
+            "exact": [],
+            "response": "aabhar 🙏"
+        }
+    ],
+    "blocked": [],
+    "noMatch":"{🤔|👍}",
+    "smartreply":{
+        "suggestions":["👍","Ha","aevu m?","Okay","Thanks"],
+        "clicktosend":true
+    }
+}
