@@ -2,7 +2,7 @@
     "appconfig": {
         "headless": true,
         "isGroupReply":false,
-        "webhook":"http://localhost:3001/api/messages"
+        "webhook":"https://mp-free.herokuapp.com/listener/whatsapp"
     },
     "bot": [{
             "contains": [],
@@ -31,9 +31,9 @@
             "response": "Michhami Dukkadam 🙏"
         },
         {
-            "contains": ["happy","birthday","bday"],
+            "contains": ["vanderli","vandeco"],
             "exact": [],
-            "response": "Thank you"
+            "response": "terelteltel"
         },
         {
             "contains": [],
