@@ -1,7 +1,7 @@
 FROM debian:stable
 
 RUN apt-get update && \
-    apt-get install -yq xvfb 
+    apt-get install -y xvfb 
 
 RUN mkdir /bot-files
 
