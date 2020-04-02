@@ -2,7 +2,7 @@
     "appconfig": {
         "headless": true,
         "isGroupReply":false,
-        "webhook":"https://mp-free.herokuapp.com/listener/whatsapp"
+        "webhook":"https://localhost:3000/listener/whatsapp"
     },
     "bot": [{
             "contains": [],
